@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego</title>
+  <script src="./index.js" defer></script>
+</head>
+<body>
+  <style>
+    html {
+      overflow: hidden;
+      user-select: none;
+    }
+    body {
+      margin: 0;
+    }
+  </style>
+  <div>
+    <button style="display: block;" onclick="init()">Iniciar</button>
+    <canvas id="canvas"></canvas>
+    <audio id="bg" src="./bg.mp3"></audio>
+    <audio id="vivo" src="./vivo.mp3"></audio>
+    <audio id="muerto" src="./muerto.mp3"></audio>
+  </div>
+</body>
+</html>
